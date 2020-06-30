@@ -20,7 +20,7 @@ if(hourNow >= 0 && hourNow < 6){
   'Something went wrong!';
 }
 
-document.write('<h1> style="color:blue">' + greeting + '</h1'); 
+document.write('<h1>' `${greeting}</h1`); 
 
 /* 
 This script is displays a greeting to the user based on the users input. */
