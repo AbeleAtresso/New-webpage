@@ -10,11 +10,11 @@ var hourNow = prompt('What time is it, friend? Use Military time.');
 
 var greeting; 
 
-if(hourNow >= 0 && hourNow < 6){ 
+if(hourNow >= 0 && hourNow < 11){ 
  greeting = ' Good Morning, ' + userName;
-} else if (hourNow >= 6 && hourNow <= 12){
+} else if (hourNow >= 12 && hourNow <= 16){
   greeting = ' Good afternoon ' + userName; 
-} else if(hourNow >= 12 && hourNow <= 24){
+} else if(hourNow >= 17 && hourNow <= 24){
   greeting = ' Good Evening ' + userName; 
 } else {
   'Something went wrong!';
